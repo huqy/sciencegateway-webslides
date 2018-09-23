@@ -660,7 +660,7 @@
         <section>
           <div class="wrap size-70">
             <p class="text-context">Data Input</p>
-            <h2>Smart Interface based on XML</h2>
+            <h3>Smart Interface based on XML</h3>
             <figure>
               <img class="aligncenter" src="/static/images/namelist_interface.png" alt="picksc google oauth2" width="90%"  >
             </figure>
@@ -670,10 +670,10 @@
 
         <section>
           <div class="wrap">
-            <h2>XML and Namelist Files and Folders</h2>
             <div class="grid">
               <div class="column">
-                <h3></h3>
+                <h3>XML and Namelist files</h3>
+                <p class="text-intro">under <code>protected</code> folder</p>
                   <ul class="flexblock specs">
                     <li>
                       <div>
@@ -681,9 +681,9 @@
                           <svg class="fa-long-arrow-right">
                             <use xlink:href="#fa-long-arrow-right"></use>
                           </svg>
-                          Protected folder
+                          <code>common</code> folder
                         </h2>
-                        outside from web root
+                        provide public input templates
                       </div>
                     </li>
                     <li>
@@ -692,18 +692,7 @@
                           <svg class="fa-long-arrow-right">
                             <use xlink:href="#fa-long-arrow-right"></use>
                           </svg>
-                          Common folder
-                        </h2>
-                        provide common template
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h2>
-                          <svg class="fa-long-arrow-right">
-                            <use xlink:href="#fa-long-arrow-right"></use>
-                          </svg>
-                          userdata folder
+                          <code>userdata</code> folder
                         </h2>
                         User storage space
                       </div>
@@ -714,9 +703,9 @@
                           <svg class="fa-long-arrow-right">
                             <use xlink:href="#fa-long-arrow-right"></use>
                           </svg>
-                          Each code has its own XML and customized problems
+                          Each code with own XML and customized problems
                         </h2>
-                        For multiple namelist sections
+                        can handle multiple namelist sections
                       </div>
                     </li>
                   </ul>
@@ -731,6 +720,182 @@
           </div>
           <!-- .end .wrap -->
         </section>
+
+        <section>
+          <div class="wrap">
+            <div class="grid">
+              <div class="column">
+                <h3>Input parameter validation</h3>
+                  <ul class="flexblock specs">
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-arrow-circle-o-right">
+                            <use xlink:href="#fa-arrow-circle-o-right"></use>
+                          </svg>
+                          Rules defined in XML
+                        </h2>
+                        by <code>&lt;validation&gt; &lt;rule&gt;</code> tags
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-arrow-circle-o-right">
+                            <use xlink:href="#fa-arrow-circle-o-right"></use>
+                          </svg>
+                          Chart plot
+                        </h2>
+                        Jquery-based <code>Flot</code> library 
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-arrow-circle-o-right">
+                            <use xlink:href="#fa-arrow-circle-o-right"></use>
+                          </svg>
+                          LaTeX in HTML
+                        </h2>
+                        by <code>MathJax</code>
+                      </div>
+                    </li>
+                  </ul>
+              </div>
+              <div class="column">
+                <figure>
+                  <img class="aligncenter" src="/static/images/validation.png" alt="input validation" width="70%"  >
+                </figure>
+              </div>
+            </div>
+            <!--end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap size-70">
+            <p class="text-context">Job Management</p>
+            <h3>Airavata vs. Agave</h3>
+            <p class="content-intro"> Commons </p>
+            <hr>
+            <ul class="flexblock">
+              <li>
+                <h2>
+                    <i class="far fa-clone"></i>
+                  Open source
+                </h2>
+                Multipurpose: services, features, specs...
+              </li>
+              <li>
+                <h2>
+                 <i class="fas fa-box"></i>
+                  Blackbox
+                </h2>
+                Multipurpose: benefits, clients, work...
+              </li>
+              <li>
+                <h2>
+                  <i class="fas fa-plug"></i>
+                  APIs
+                </h2>
+                Multipurpose: news, metrics, plans...
+              </li>
+              <li>
+                <h2>
+                  <i class="fas fa-dollar-sign"></i>
+                  Funding 
+                </h2>
+                Multipurpose: services, features, specs...
+              </li>
+              <li>
+                <h2><i class="far fa-thumbs-down"></i>
+                  Not good at
+                </h2>
+                supporting the individual resource configurations, yet.
+              </li>
+              <li>
+                <h2> <i class="fas fa-bug"></i>
+                  Bugs
+                </h2>
+                Both have bugs in customizing the job schedulers (especially for UGE on H2)
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap">
+            <h3>ul.work</h3>
+            <ul class="work">
+              <li class="work-label">
+                <p class="work-title">Work</p>
+                <p class="work-client">Client</p>
+                <p class="work-services">Services</p>
+                <p class="work-date">Year</p>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Redesign of Netflix</span></p>
+                  <p class="work-client"><span>Netflix</span></p>
+                  <p class="work-services"><span>Frontend</span></p>
+                  <p class="work-date"><span>2015-2016</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Redesign of Netflix</span></p>
+                  <p class="work-client"><span>Netflix</span></p>
+                  <p class="work-services"><span>Frontend</span></p>
+                  <p class="work-date"><span>2015-2016</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Airbnb TV Commercials</span></p>
+                  <p class="work-client"><span>Airbnb</span></p>
+                  <p class="work-services"><span>Video, Storytelling</span></p>
+                  <p class="work-date"><span>2015</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Tesla Software</span></p>
+                  <p class="work-client"><span>Tesla Motors</span></p>
+                  <p class="work-services"><span>Visual Design</span></p>
+                  <p class="work-date"><span>2014</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Redesign of Netflix</span></p>
+                  <p class="work-client"><span>Netflix</span></p>
+                  <p class="work-services"><span>Frontend</span></p>
+                  <p class="work-date"><span>2015-2016</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Airbnb TV Commercials</span></p>
+                  <p class="work-client"><span>Airbnb</span></p>
+                  <p class="work-services"><span>Video, Storytelling</span></p>
+                  <p class="work-date"><span>2015</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="#" rel="external">
+                  <p class="work-title"><span>Tesla Software</span></p>
+                  <p class="work-client"><span>Tesla Motors</span></p>
+                  <p class="work-services"><span>Visual Design</span></p>
+                  <p class="work-date"><span>2014</span></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
 
         <section>
           <!--.wrap = container (width: 90%) -->
